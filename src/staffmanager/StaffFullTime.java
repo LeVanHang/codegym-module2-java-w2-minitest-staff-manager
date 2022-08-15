@@ -1,3 +1,5 @@
+package staff;
+
 public class StaffFullTime extends StaffData {
     private int bonus;
     private int fines;
@@ -49,7 +51,7 @@ public class StaffFullTime extends StaffData {
 
     @Override
     public String toString() {
-        return "StaffFullTime{" +
+        return "staff.StaffFullTime{" +
                 "bonus=" + bonus +
                 ", fines=" + fines +
                 ", salary=" + salary +

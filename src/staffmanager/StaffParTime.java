@@ -1,3 +1,5 @@
+package staff;
+
 public class StaffParTime extends StaffData {
     private int workinghours;
 
@@ -27,7 +29,7 @@ public class StaffParTime extends StaffData {
 
     @Override
     public String toString() {
-        return "StaffParTime{" +
+        return "staff.StaffParTime{" +
                 "workinghours=" + workinghours +
                 "} " + super.toString();
     }

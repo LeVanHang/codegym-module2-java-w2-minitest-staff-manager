@@ -1,3 +1,5 @@
+package staff;
+
 public class StaffData {
     private int staffId;
     private String name;
@@ -58,7 +60,7 @@ public class StaffData {
 
     @Override
     public String toString() {
-        return "StaffData{" +
+        return "staff.StaffData{" +
                 "staffId=" + staffId +
                 ", name='" + name + '\'' +
                 ", age=" + age +
