@@ -1,4 +1,4 @@
-package staff;
+package staffmanager;
 
 public class StaffParTime extends StaffData {
     private int workinghours;

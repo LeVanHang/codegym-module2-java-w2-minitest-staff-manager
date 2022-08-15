@@ -1,4 +1,4 @@
-package staff;
+package staffmanager;
 
 public class StaffFullTime extends StaffData {
     private int bonus;

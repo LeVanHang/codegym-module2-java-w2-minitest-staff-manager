@@ -1,4 +1,4 @@
-package staff;
+package staffmanager;
 
 public class StaffData {
     private int staffId;
@@ -16,6 +16,9 @@ public class StaffData {
         this.age = age;
         this.phone = phone;
         this.email = email;
+    }
+
+    public static void add(StaffData staffData) {
     }
 
     public int getStaffId() {
@@ -57,7 +60,7 @@ public class StaffData {
     public void setEmail(String email) {
         this.email = email;
     }
-
+    
     @Override
     public String toString() {
         return "staff.StaffData{" +
@@ -67,5 +70,8 @@ public class StaffData {
                 ", phone=" + phone +
                 ", email='" + email + '\'' +
                 '}';
+    }
+
+    public void salary() {
     }
 }
