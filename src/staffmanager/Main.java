@@ -36,4 +36,9 @@ int StaffFullTime, StaffParTime;
 
         }
     }
+
+//    public StaffFullTime(int staffId, String name, int age, int phone, String email, int bonus, int fines, int salary)
+    StaffData staff1 = new StaffFullTime(001, "Phong cho", 33, 000000, "hfu@gmail", 1, 696969, 686868);
+    StaffData staff2 = new StaffFullTime(001, "con cho ho duc", 34, 0000001, "hfu@gmail", 1, 696969, 686868);
+    StaffData staff3 = new StaffFullTime(001, "han hit", 35, 0000002, "hfu@gmail", 1, 696969, 686868);
 }
